@@ -1,0 +1,972 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>商品列表</title>
+<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="css/goodsTable.css">
+</head>
+<body>	
+<!-- 滚动后出现的导航 -->
+<div id="scrollShow">
+	<div class="nav">
+		<div class="totle totle02">
+			<a href="javascript:;"><img src="img/logow.png"></a>
+			<span class="line"></span>
+		</div>
+		<div class="list">
+			<a href="javascript:;">男表</a>
+			<a href="javascript:;">女表</a>
+			<a href="javascript:;">品牌馆</a>
+			<a href="javascript:;">闪购</a>
+			<a href="javascript:;">体验中心</a>
+			<a href="javascript:;">名匠维修</a>
+			<a href="javascript:;">二手商城</a>
+			<a href="javascript:;">手表资讯</a>
+			<a href="javascript:;">万表大人</a>
+		</div>
+		<a href="javascript:;"><img class="scrollImg1" src="img/hot.png"></a>
+		<a href="javascript:;"><img class="scrollImg2" src="img/shopcar.png"></a>
+	</div>
+</div>
+<!-- 顶部 -->
+<div id="top">
+<!-- 头部可删除广告 -->
+	<div class="headerT">
+		<div class="headerTit">
+			<div class="delete"></div>
+		</div>
+	</div>
+	<!-- 登录注册栏 -->
+	<div class="login">
+		<div class="content">
+			<a href="javascript:;">正品保障，免息分期！</a>
+			<div class="right">
+				<ul>
+					<li><a href="wBlogin.html" target="_blank">请登录</a></li>
+					<li><a href="wBreg.html" target="_blank">注册即送3500元大礼包</a><span>|</span></li>
+					<li><a href="javascript:;">购物车</a></li>
+					<li class="right_a"><a href="javascript:;">客户服务</a>	<!-- 注册登录中god -->
+						<div id="god">
+							<ul>
+								<li><a href="javascript:;">客户顾问</a></li>
+								<li><a href="javascript:;">售后维修</a></li>
+								<li><a href="javascript:;">客户顾问</a></li>
+								<li><a href="javascript:;">售后维修</a></li>
+							</ul>
+							<p class="first_p">服务专线：400-833-2688</p>
+							<p>外呼专线：400-833-2688</p>
+							<span class="god_line"></span>
+						</div>	
+					</li>
+					<li><a href="javascript:;">会员福利</a><span>|</span></li>
+					<li><a href="javascript:;">ENGLISH</a>	</li>
+				</ul>	
+			</div>
+		</div>
+	</div>
+<!-- 万表logo栏 -->
+	<div class="logo_out">
+		<div class="logo">
+			<div class="left">
+				<a href="javascript:;"><img src="img/logo.png" alt="正品名表，终身服务"></a>
+				<a href="javascript:;"><img src="img/word.png"></a>
+			</div>
+			<div class="sear_box">
+				<div class="search">
+					<img src="img/search.png">
+					<input type="text" value="劳力士">				
+				</div>
+				<div class="button"><input type="button" value="搜索"></div>
+			</div>
+			<div class="right">
+				<a href="javascript:;"><img src="img/erweima.png"></a>
+			</div>
+		</div>
+	</div>		
+</div>
+<!-- 导航 -->
+<div class="nav_out">
+	<div class="nav">
+		<!-- 导航内容部分 -->
+		<div class="totle">
+			<a href="javascript:;">全部商品</a>
+			<span class="line"></span>
+		</div>
+		<div class="list">
+			<a href="javascript:;">男表</a>
+			<a href="javascript:;">女表</a>
+			<a href="javascript:;">品牌馆</a>
+			<a href="javascript:;">闪购</a>
+			<a href="javascript:;">体验中心</a>
+			<a href="javascript:;">名匠维修</a>
+			<a href="javascript:;">二手商城</a>
+			<a href="javascript:;">手表资讯</a>
+			<a href="javascript:;">万表大人</a>
+		</div>
+	</div>
+</div>
+<!-- 中间部分 -->
+<!-- 首页>商品中心 -->
+<div class="index_out">
+	<div class="index">
+		<div class="index_left">
+			<a href="wBiao.html">首页 ></a>
+			<span>商品中心</span>
+		</div>		
+		<div class="index_right">
+			<span>热门搜索 :</span>
+			<a href="javascript:;">&nbsp;&nbsp;劳力士</a>
+		</div>		
+	</div>
+</div>
+<!-- 内容部分 -->
+<div class="big_content">
+	<!-- 左边部分 -->
+	<div class="content_left">
+		<!-- 轮播图 -->
+		<div id="banner">
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><a href="javascript:;"><img src="img_goodsTable/banner.jpg"></a></div>
+			        <div class="swiper-slide"><a href="javascript:;"><img src="img_goodsTable/banner2.jpg"></a></div>
+			        <div class="swiper-slide"><a href="javascript:;"><img src="img_goodsTable/banner3.jpg"></a></div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			    
+			    <!-- 如果需要导航按钮 -->
+			    <!-- <div class="swiper-button-prev"></div>
+			    <div class="swiper-button-next"></div> -->
+			    
+			    <!-- 如果需要滚动条 -->
+			    <!-- <div class="swiper-scrollbar"></div> -->
+			</div>
+		</div>
+		<!-- 表友晒单 -->
+		<div class="watchFriend">
+			<div class="publick_title watchFriend_top">
+				<span>表友晒单</span>
+				<span>表友评论</span>
+			</div>
+			<!-- 晒单 -->
+			<div class="shineWatch_bottom watchFriend_shine">
+				<div class="shineWatch_list">
+					<div class="shineWatch_img">
+						<a href="javascript:;"><img src="img_goodsTable/shine01.jpg" alt=""></a>
+					</div>
+					<div class="shineWatch_text">
+						<h6>WB****8381：</h6>
+						<p>货收到了，就是发货时间长!</p>
+					</div>
+				</div>
+				<div class="shineWatch_list">
+					<div class="shineWatch_img">
+						<a href="javascript:;"><img src="img_goodsTable/shine01.jpg" alt=""></a>
+					</div>
+					<div class="shineWatch_text">
+						<h6>WB****8381：</h6>
+						<p>货收到了，就是发货时间长!</p>
+					</div>
+				</div>
+				<div class="shineWatch_list">
+					<div class="shineWatch_img">
+						<a href="javascript:;"><img src="img_goodsTable/shine01.jpg" alt=""></a>
+					</div>
+					<div class="shineWatch_text">
+						<h6>WB****8381：</h6>
+						<p>货收到了，就是发货时间长!</p>
+					</div>
+				</div>	
+				<div class="shineWatch_list shine_bannerLine">
+					<ul>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>			
+			</div>
+			<!-- 评论 -->
+			<div class="shineWatch_bottom watchFriend_talk">
+				<div class="shineWatch_list">
+					<div class="shineWatch_img">
+						<a href="javascript:;"><img src="img_goodsTable/shine02.jpg" alt=""></a>
+					</div>
+					<div class="shineWatch_text">
+						<h6>WB****8381：</h6>
+						<p>货收到了，就是发货时间长!</p>
+					</div>
+				</div>
+				<div class="shineWatch_list">
+					<div class="shineWatch_img">
+						<a href="javascript:;"><img src="img_goodsTable/shine02.jpg" alt=""></a>
+					</div>
+					<div class="shineWatch_text">
+						<h6>WB****8381：</h6>
+						<p>货收到了，就是发货时间长!</p>
+					</div>
+				</div>
+				<div class="shineWatch_list">
+					<div class="shineWatch_img">
+						<a href="javascript:;"><img src="img_goodsTable/shine02.jpg" alt=""></a>
+					</div>
+					<div class="shineWatch_text">
+						<h6>WB****8381：</h6>
+						<p>货收到了，就是发货时间长!</p>
+					</div>
+				</div>	
+				<div class="shineWatch_list shine_bannerLine">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>			
+			</div>
+		</div>
+		<!-- 最近浏览 -->
+		<div class="near">
+			<div class="publick_title near_top">
+				<span>最近浏览</span>
+			</div>
+			<!-- 最近浏览内容 -->
+			<div class="near_content">
+				<div class="near_list">
+					<div class="naer_img">
+						<a href="javascript:;"><img src="img_goodsTable/near01.jpg" alt=""></a>
+					</div>
+					<div class="near_text">
+						<h6>￥4,290</h6>
+						<p>货收到了，就是发货时间长!货收到了，就是发货时间长!</p>
+					</div>
+				</div>
+				<div class="near_list">
+					<div class="naer_img">
+						<a href="javascript:;"><img src="img_goodsTable/near01.jpg" alt=""></a>
+					</div>
+					<div class="near_text">
+						<h6>￥4,290</h6>
+						<p>货收到了，就是发货时间长!货收到了，就是发货时间长!</p>
+					</div>
+				</div>	
+				<div class="near_list">
+					<div class="naer_img">
+						<a href="javascript:;"><img src="img_goodsTable/near01.jpg" alt=""></a>
+					</div>
+					<div class="near_text">
+						<h6>￥4,290</h6>
+						<p>货收到了，就是发货时间长!货收到了，就是发货时间长!</p>
+					</div>
+				</div>			
+			</div>
+		</div>
+		<!-- 品牌资讯 -->
+		<div class="news">
+			<div class="publick_title near_top news_top">
+				<span>品牌资讯</span>
+				<span>手表资讯</span>
+				<span>网站承诺</span>
+			</div>
+			<div class="news_content_big">
+				<!-- 品牌资讯 -->
+				<div class="news_content near_content news_pinpai">
+					<ul>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+					</ul>
+				</div>
+				<!-- 手表资讯 -->	
+				<div class="news_content near_content near_position news_watch">
+					<ul>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+						
+					</ul>
+				</div>
+				<!-- 网站承诺 -->
+				<div class="news_content near_content near_position news_wangzhan">
+					<ul>
+						<li><span></span>卡罗莱手表外圈数字是什么意思呢？</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 热门品牌 -->
+		<div class="hot">
+			<div class="publick_title near_top hot_top">
+				<span>热门品牌</span>
+				<span>热词</span>
+			</div>
+			<div class="hot_content">
+				<!-- 热门品牌 -->
+				<div class="hot_pinpai news_content near_content">
+					<ul class="hot_pinpai_ul">
+						<li><span>1</span>卡罗莱</li>
+						<li><span>2</span>卡罗</li>
+						<li><span>3</span>卡罗</li>
+						<li><span>4</span>卡罗</li>
+						<li><span>5</span>卡罗</li>
+						<li><span>6</span>卡罗莱</li>
+						<li><span>7</span>卡罗</li>
+						<li><span>8</span>卡罗莱</li>
+						<li><span>9</span>卡罗</li>
+						<li><span>10</span>卡罗莱</li>
+					</ul>
+				</div>
+				<!-- 热词 -->	
+				<!-- <div class="hot_word news_content near_content">
+					<ul>
+						<li>卡罗莱</li>
+						<li>卡罗莱卡</li>
+						<li>卡罗莱卡罗莱</li>
+						<li>卡罗莱</li>
+						<li>卡罗莱卡罗</li>
+						<li>卡罗莱卡罗莱</li>
+						<li>卡罗莱</li>
+						<li>卡罗莱卡</li>
+						<li>卡罗莱卡罗莱</li>
+						<li>卡罗莱</li>
+						<li>卡罗莱卡罗</li>
+						<li>卡罗莱卡罗莱</li>
+						<li>卡罗莱</li>
+						<li>卡罗莱卡</li>
+						<li>卡罗莱卡罗莱</li>
+						<li>卡罗莱</li>
+						<li>卡罗莱卡罗</li>
+						<li>卡罗莱卡罗莱</li>
+						<li>卡罗莱</li>
+						<li>卡罗莱卡</li>
+						<li>卡罗莱卡罗莱</li>
+						<li>卡罗莱</li>
+						<li>卡罗莱卡罗</li>
+						<li>卡罗莱卡罗莱</li>
+					</ul>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<!-- 右边部分 -->
+	<div class="content_right">
+		<!-- 很多选项 -->
+		<div class="searchTable">
+			<div class="searchTable_top">
+				<div>
+					<span class="result">已找到<span></span>件商品</span>
+				</div>
+				<!-- 全部商品 -->
+				<div class="searchTable_top_list">
+					<span class="searchTable_top_title">全部分类</span>
+					<ul class="searchTable_top_ul">
+						<li>腕表</li>
+						<li>表带</li>
+					</ul>					
+				</div>
+				<!-- 价格 -->
+				<div class="searchTable_top_list">
+					<span class="searchTable_top_title">价格</span>
+					<ul class="searchTable_top_ul">
+						<li>1000以下</li>
+						<li>1000-3000</li>
+						<li>3000-5000</li>
+						<li>5000-10000</li>
+						<li>10000-50000</li>
+						<li>50000-100000</li>
+						<li>100000以上</li>
+					</ul>	
+					<div class="inputbox">
+						<input type="text">
+						<span class="lessHao">-</span>	
+						<input type="text">	
+					</div>
+					<span class="moreTrue">确定</span>		
+				</div>
+				<!-- 品牌 -->
+				<div class="searchTable_top_list searchTable_top_list3">
+					<span class="searchTable_top_title searchTable_title_pinpai">品牌</span>
+					<ul class="searchTable_top_ul searchTable_pinpai">
+						<li>爱宝时</li>
+						<li>迪沃斯</li>
+						<li>爱宝时</li>
+						<li>迪沃斯</li>
+						<li>爱宝时</li>
+						<li>迪沃斯</li>
+						<li>爱宝时</li>
+						<li>迪沃斯</li>
+						<li>爱宝时</li>
+						<li>迪沃斯</li>
+						<li>爱宝时</li>
+						<li>迪沃斯</li>
+						<li>爱宝时</li>
+						<li>迪沃斯</li>
+						<li>爱宝时</li>
+						<li>迪沃斯</li>
+						<li>爱宝时</li>
+						<li>迪沃斯</li>
+						<li>爱宝时</li>
+						<li>迪沃斯</li>
+						
+					</ul>	
+					<span class="moreTrue moreTrue2 moreTrue3">更多</span>
+				</div>
+				<!-- 点击出现的品牌框 -->
+				<div class="searchTable_top_list searchTable_top_list2">
+					<span class="searchTable_top_title searchTable_title_pinpai2">品牌</span>
+					<ul class="searchTable_top_ul searchTable_pinpai">
+						<li>爱宝时/EPOS</li>
+						<li>迪沃斯/DAVOSE</li>
+						<li>爱宝时/EPOS</li>
+						<li>迪沃斯/EPOS</li>
+						<li>爱宝时/EPOS</li>
+						<li>迪沃斯/EPOS</li>
+						<li>爱宝时/EPOS</li>
+						<li>迪沃斯/EPOS</li>
+					</ul>	
+					<span class="moreTrue moreTrue2 moreTrue4">收起</span>
+				</div>	
+				<!-- 宽度 -->
+				<div class="searchTable_top_list searchTable_top_width1">
+					<span class="searchTable_top_title">宽度</span>
+					<ul class="searchTable_top_ul">
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>			
+					</ul>	
+					<span class="moreTrue moreTrue5">更多</span>		
+				</div>
+				<!-- 点击出现的宽度框 -->
+				<div class="searchTable_top_list searchTable_top_width2">
+					<span class="searchTable_top_title">宽度</span>
+					<ul class="searchTable_top_ul">
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>			
+					</ul>	
+					<span class="moreTrue moreTrue6">更多</span>		
+				</div>
+				<!-- 长度 -->
+				<div class="searchTable_top_list searchTable_top_length1">
+					<span class="searchTable_top_title">长度</span>
+					<ul class="searchTable_top_ul">
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>			
+					</ul>	
+					<span class="moreTrue moreTrue7">更多</span>		
+				</div>
+				<!-- 点击出现的长度框 -->
+				<div class="searchTable_top_list searchTable_top_length2">
+					<span class="searchTable_top_title">长度</span>
+					<ul class="searchTable_top_ul">
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>	
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>			
+					</ul>	
+					<span class="moreTrue moreTrue8">收起</span>		
+				</div>
+				<!-- 展开按钮 -->
+				<span class="moreButton">更多></span>
+			</div>
+			<div class="searchTable_bottom">
+				<!-- 材质 -->
+				<div class="searchTable_top_list">
+					<span class="searchTable_top_title">材质</span>
+					<ul class="searchTable_top_ul">
+						<li>1000以下</li>
+						<li>1000-3000</li>
+						<li>3000-5000</li>
+						<li>5000-10000</li>
+						<li>10000-50000</li>
+						<li>50000-100000</li>
+						<li>其他</li>
+					</ul>		
+				</div>
+				<!-- 颜色 -->
+				<div class="searchTable_top_list searchTable_top_color1">
+					<span class="searchTable_top_title">颜色</span>
+					<ul class="searchTable_top_ul">
+						<li>1000以下</li>
+						<li>1000-3000</li>
+						<li>3000-5000</li>
+						<li>5000-10000</li>
+						<li>10000-50000</li>
+						<li>50000-100000</li>
+						<li>其他</li>
+					</ul>	
+					<span class="moreTrue moreTrue9">更多</span>	
+				</div>
+				<!-- 点击出现的颜色框 -->
+				<div class="searchTable_top_list searchTable_top_color2">
+					<span class="searchTable_top_title">颜色</span>
+					<ul class="searchTable_top_ul">
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>	
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>
+						<li>08mm</li>			
+					</ul>	
+					<span class="moreTrue moreTrue10">收起</span>		
+				</div>
+			</div>
+		</div>
+		<!-- 列表选项导航 -->
+		<div class="selectTable">
+			<!-- 导航部分 -->
+			<div class="nav selectTable_nav">
+				<!-- 列表选项导航内容部分 -->
+				<div class="list">
+					<a href="javascript:;">综合排序</a>
+					<a href="javascript:;">销量优先</a>
+					<a href="javascript:;">价格排序</a>
+					<a href="javascript:;">新品</a>
+					<span class="selectTable_nav_line">|</span>
+					<ul>
+						<li><span></span>闪电发货</li>
+						<li><span></span>闪电发货</li>
+						<li><span></span>发货</li>
+						<li><span></span>闪电发货</li>
+						<li><span></span>闪电发货</li>
+					</ul>
+					<div class="selectTable_nav_right">
+						<span></span>
+						<span> 1/20 </span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<!-- 商品列表 -->
+			<div class="goodsTable">
+				<ul id="goodsTable_ul">
+					<li>
+						<a href="javascript:;"><img src="img_goodsTable/select01.jpg" alt=""></a>
+						<div class="goodsTable_text">
+							<span class="goodsTable_text_span01"><span>￥</span>22800 <b><span>￥</span>600</b></span>
+							<a class="goodsTable_text_a01" href="javascript:;">法国精致腕表品牌：郝柏林航行系列</a>
+							<span class="goodsTable_text_span02"><span>销量</span>6</span>
+							<a class="goodsTable_text_a02"href="javascript:;">法国郝柏林官方旗舰店</a>
+							<span class="goodsTable_text_span03">自营</span>
+						</div>
+						<div class="goodsTable_hover">
+							
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 页数 -->
+		<div class="pageNum">
+			<div class="pageNum_a">
+				<a class="pageNum_a01" href="javascript:;">1</a>
+				<a href="javascript:;">2</a>
+				<a href="javascript:;">3</a>
+				<a href="javascript:;">4</a>
+				<a href="javascript:;">5</a>
+				<a href="javascript:;">6</a>
+			</div>
+		</div>
+		<!-- 很多文字 -->
+		<div class="moreWord">
+			<ul>
+				<li>
+					<!-- 标题 -->
+					<div class="moreWord_title">
+						<h6>热门手表</h6>
+						<a class="moreWord_more" id="moreWord_more" >+更多</a>
+					</div>
+					<!-- 内容 -->
+					<div class="moreWord_content">
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+					</div>
+					<!-- 点击出现的内容 -->
+					<div class="moreWord_content moreWord_click" id="moreWord_click">
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+					</div>
+				</li>
+				<li>
+					<!-- 标题 -->
+					<div class="moreWord_title">
+						<h6>热门手表</h6>
+						<a class="moreWord_more" id="moreWord_more" href="javascript:;">+更多</a>
+					</div>
+					<!-- 内容 -->
+					<div class="moreWord_content">
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+					</div>
+					<!-- 点击出现的内容 -->
+					<div class="moreWord_content moreWord_click" id="moreWord_click">
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+					</div>
+				</li>
+				<li>
+					<!-- 标题 -->
+					<div class="moreWord_title">
+						<h6>热门手表</h6>
+						<a class="moreWord_more" id="moreWord_more" href="javascript:;">+更多</a>
+					</div>
+					<!-- 内容 -->
+					<div class="moreWord_content">
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+					</div>
+					<!-- 点击出现的内容 -->
+					<div class="moreWord_content moreWord_click" id="moreWord_click">
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+						<a href="javascript:;">爱马仕手表</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- 底部 -->
+<div id="bottom">
+<!-- 正品保障 -->
+	<div class="true_content_out">
+		<div class="true_content">
+			<div>
+				<img src="img/tubiao01.png">
+				<p>正品保障</p>
+			</div>
+			<div>
+				<img src="img/tubiao02.png">
+				<p>正品保障</p>
+			</div>
+			<div>
+				<img src="img/tubiao03.png">
+				<p>正品保障</p>
+			</div>
+			<div>
+				<img src="img/tubiao04.png">
+				<p>正品保障</p>
+			</div>
+			<div>
+				<img src="img/tubiao01.png">
+				<p>正品保障</p>
+			</div>
+		</div>
+	</div>
+	<!-- 新手指南footer -->
+	<div class="footer_out">
+		<div class="footer_content">
+			<!-- footer上部 -->
+			<div class="footer_content_top">
+				<div class="footer_top_left">
+					<p>客服电话</p>
+					<p>400-883-2688</p>
+					<p>外呼电话 020-83931899</p>
+					<a href="javascript:;">售后维修</a>
+				</div>
+				<div class="footer_top_center">
+					<dl>
+						<dt>新手指南</dt>
+						<dd><a href="javascript:;">注册新会员</a></dd>
+						<dd><a href="javascript:;">购物流程</a></dd>
+						<dd><a href="javascript:;">手表小知识</a></dd>
+						<dd><a href="javascript:;">退换货流程</a></dd>
+					</dl>
+					<dl>
+						<dt>新手指南</dt>
+						<dd><a href="javascript:;">注册新会员</a></dd>
+						<dd><a href="javascript:;">购物流程</a></dd>
+						<dd><a href="javascript:;">手表小知识</a></dd>
+						<dd><a href="javascript:;">退换货流程</a></dd>
+					</dl>
+					<dl>
+						<dt>新手指南</dt>
+						<dd><a href="javascript:;">注册新会员</a></dd>
+						<dd><a href="javascript:;">购物流程</a></dd>
+						<dd><a href="javascript:;">手表小知识</a></dd>
+						<dd><a href="javascript:;">退换货流程</a></dd>
+					</dl>
+					<dl>
+						<dt>新手指南</dt>
+						<dd><a href="javascript:;">注册新会员</a></dd>
+						<dd><a href="javascript:;">购物流程</a></dd>
+						<dd><a href="javascript:;">手表小知识</a></dd>
+						<dd><a href="javascript:;">退换货流程</a></dd>
+					</dl>
+					<dl>
+						<dt>服务中心</dt>
+						<dd><a href="javascript:;">注册新会员</a></dd>
+						<dd><a href="javascript:;">购物流程</a></dd>
+						<dd><a href="javascript:;">手表小知识</a></dd>
+					</dl>
+				</div>
+				<div class="footer_top_right">
+					<a href="javascript:;"><img src="img/erweima02.png"><p>关注领100元现金券</p></a>
+				</div>
+			</div>
+			<!-- footer中间部分 -->
+			<div class="footer_content_middle">
+				<p class="footer_middle_top">
+					<a href="javascript:;">万表app</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">热销</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">天猫万表网旗舰店</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">京东万表网旗舰店</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">万表资讯</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;" id="more">></a>
+				</p>
+				<p class="footer_middle_bottom">
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">手表排行表</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">卡地亚手表</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">万表名匠标</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">万表名匠</a>
+				</p>
+			</div>
+			<!-- footer底部 -->
+			<div class="footer_content_bottom">
+				<p>万表网名表商城 版权所有 2008-2018 ICP备案证书号:粤ICP备09108738号 网监备案:4401060103141</p>
+				<p>广州市万表科技股份有限公司 地址:广州市番禺区番禺大道北60-1号</p>
+				<p>Copyright 2008-2017 WWW.WBIAO.CN.LTD ALL RIGHT RESERVED.</p>
+			</div>
+		</div>
+	</div>
+	<!-- 红盾 -->
+	<div class="hongDun_out">
+		<div class="hongDun footer_content_middle">
+			<div class="hongDun_top">
+				<img src="img/hongDun01.png" title="网信认真">
+				<img src="img/hongDun01.png" title="网信认真">
+				<img src="img/hongDun01.png" title="网信认真">
+			</div>	
+			<div class="hongDun_bottom">		
+				<p class="footer_middle_top">
+					<a href="javascript:;">万表app</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">热销</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">天猫万表网旗舰店</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">京东万表网旗舰店</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">万表资讯</a>
+					<a href="javascript:;">万表名匠</a>
+					<a href="javascript:;">></a>
+				</p>
+			</div>			
+		</div>
+	</div>	
+</div>
+<script type="text/javascript" src="js/swiper.min.js" ></script>
+<script>        
+var mySwiper = new Swiper ('.swiper-container', {
+	direction: 'horizontal', // 垂直切换选项
+	loop: true, // 循环模式选项
+	autoplay: {
+	    delay: 3000,
+	    stopOnLastSlide: false,
+	    disableOnInteraction: false,
+	},
+	// 如果需要分页器
+	pagination: {
+	    el: '.swiper-pagination',
+	    //type: 'fraction',
+	    bulletElement : 'li',
+	    bulletClass : 'my-bullet',
+	    clickable: true,
+  },
+})
+//鼠标滑过pagination控制swiper切换
+for(i=0;i<mySwiper.pagination.bullets.length;i++){
+  mySwiper.pagination.bullets[i].onclick=function(){
+    this.click();
+  };
+} 
+</script>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/cookieTools.js"></script>
+<script type="text/javascript" src="js/goodsTable.js"></script>
+<!-- <script type="text/javascript" src="js/ajaxTools.js"></script> -->
+
+
+

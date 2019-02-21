@@ -1,0 +1,184 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background:#f5f5f5;
+}
+li{
+	list-style: none;
+}
+img{
+	display:block;
+}
+input{
+	outline:none;
+	border:none;
+}
+/*万表logo栏*/
+.logo_out{
+	background:white;
+}
+.logo{
+	width:1200px;
+	height:112px;
+	margin:0 auto;	
+}
+.logo .left{
+	float:left;
+	padding-top:24px;
+}
+.logo .left img{
+	float:left;
+}
+/*背景图*/
+.banner{
+	width:100%;
+	height:580px;
+	/*background:#7e0c0d;*/
+	background:url(../img/reg.jpg) no-repeat center top;
+	background-size:100% 580px;
+	
+}
+.box_out{
+	width:1200px;
+	height:580px;
+	margin:0 auto;		
+	position:relative;
+}
+.box{
+	position:absolute;
+	right:120px;
+	top:50px;
+	height:394px;
+	/*width:300px;*/
+	background:white;
+	padding: 41px 40px 25px;
+}
+.title{
+	margin-bottom:33px;
+}
+.title span{
+	font-size:20px;
+	color:#cc5252;
+	line-height: 24px;
+	cursor:pointer;
+}
+.title .left{
+	margin-left:42px;
+	margin-right: 27px;
+}
+.title .right{
+	border-left:1px solid #dddddd;
+	color:#808080;
+	padding-left: 27px;
+}
+.login_list{
+	width:300px;
+	padding-bottom:12px;
+}
+.login_list p:first-child{
+	height:42px;
+	width:298px;
+	border:1px solid #e8e8e8;
+}
+.login_list input{
+	height:42px;
+	width:298px;
+	font-size:14px;
+	color:#cccccc;
+	line-height: 42px;
+	float:left;
+	text-indent:10px;
+}
+.login_list i{
+	font-size:14px;
+	color:#cc5252;
+	font-style:normal;
+	line-height: 14px;
+	display:block;
+	padding-left:10px;
+	margin-top: 12px;
+	display:none;
+}
+.login_list2{
+	width:200px;
+	position:relative;
+}
+.login_list2 p:first-child{
+	width:198px;
+}
+.login_list2 input{
+	width:198px;	
+}
+.login_list2 .yanzhengma{
+	width:93px;
+	height:41px;
+	border:1px solid #e8e8e8;
+	position:absolute;
+	right:-100px;
+	top:1px;
+	font-size:12px;
+	text-align:center;
+	line-height: 36px;
+	cursor:pointer;
+	float:left;
+}
+/*footer*/
+.footer_out{
+	width:100%;
+	/*background:#333333;*/
+}
+.footer_content{
+	width:1200px;
+	margin:0 auto;
+}
+.footer_content_bottom{
+	padding-top: 52px;
+	padding-bottom: 127px;
+}
+.footer_content_bottom p{
+	font-size:12px;
+	color:#999;
+	text-align: center;
+	line-height:19px;
+}
+.login_list3 input{
+	width:300px;
+	font-size:18px;
+	color:#fff4d3;
+	background:#cc5252;
+	cursor:pointer;
+}
+.fire{
+	font-size: 12px;
+	color:#999999;
+	line-height: 12px;
+	display:block;
+	height:12px;
+	float:left;
+	margin-top:16px;
+}
+.footer{
+	width:154px;
+	margin-top:115px;
+	padding-left: 146px;
+}
+.footer span{
+	font-size:16px;
+	color:#99a5c2;
+	float:left;
+	cursor:pointer;
+
+}
+.footer .left{
+	width:64px;
+	padding-right:10px;
+}
+.footer .right{
+	border-left:1px solid #cfcccf;
+	padding-left:12px;
+}
